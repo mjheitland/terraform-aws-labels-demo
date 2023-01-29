@@ -1,0 +1,30 @@
+# ignore all hidden files and folders
+.*
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# git
+!.gitignore
+!.gitattributes
+!.github/
+!.gitkeep
+
+!.editorconfig
+
+# terraform
+*.tfstate
+*.tfstate.*
+!.tflint.hcl
+!.terraform-docs.yaml
+!.terraformignore
+
+# validation results
+*.sarif
